@@ -5,64 +5,64 @@ public class Tugas1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double makanan; double transport; double belanja;
-        System.out.println("Total Harga Makanan: ");
-        makanan = input.nextDouble();
-        System.out.println("Total Harga Transport: ");
-        transport = input.nextDouble();
-        System.out.println("Total Harga Belanja: ");
-        belanja = input.nextDouble();
-        double total = makanan + transport + belanja;
+        double makananWarteg1; double transportBus1; double belanjaBulanan1;
+        System.out.println("Total Harga Makanan Warteg 1: ");
+        makananWarteg1 = input.nextDouble();
+        System.out.println("Total Harga Transport Bus 1: ");
+        transportBus1 = input.nextDouble();
+        System.out.println("Total Harga Belanja Bulanan 1: ");
+        belanjaBulanan1 = input.nextDouble();
+        double total1 = makananWarteg1 + transportBus1 + belanjaBulanan1;
 
-        double presentaseMakanan; double presentaseTransport; double presentaseBelanja;
-        presentaseMakanan = makanan/total * 100;
-        presentaseTransport = transport/total * 100;
-        presentaseBelanja = belanja/total * 100;
-
-        System.out.println("><><><><><><><");
-        System.out.println("Hasil Presentase Makanan:" + presentaseMakanan + "%");
-        System.out.println("Hasil Presentase Transport:" + presentaseTransport + "%");
-        System.out.println("Hasil Presentase Belanja:" + presentaseBelanja + "%");
-        System.out.println("><><><><><><><");
-
-        double makanan1; double transport1; double belanja1;
-        System.out.println("Total Harga Makanan1: ");
-        makanan1 = input.nextDouble();
-        System.out.println("Total Harga Transport1: ");
-        transport1 = input.nextDouble();
-        System.out.println("Total Harga Belanja: ");
-        belanja1 = input.nextDouble();
-        double total1 = makanan1 + transport1 + belanja1;
-
-        double presentaseMakanan1; double presentaseTransport1; double presentaseBelanja1;
-        presentaseMakanan1 = makanan1/total1 * 100;
-        presentaseTransport1 = transport1/total1 * 100;
-        presentaseBelanja1 = belanja1/total1    * 100;
+        double presentaseMakananWarteg1; double presentaseTransportBus1; double presentaseBelanjaBulanan1;
+        presentaseMakananWarteg1 = makananWarteg1/total1 * 100;
+        presentaseTransportBus1 = transportBus1/total1 * 100;
+        presentaseBelanjaBulanan1 = belanjaBulanan1/total1 * 100;
 
         System.out.println("><><><><><><><");
-        System.out.println("Hasil Presentase Makanan1:" + presentaseMakanan1 + "%");
-        System.out.println("Hasil Presentase Transport1:" + presentaseTransport1 + "%");
-        System.out.println("Hasil Presentase Belanja1  :" + presentaseBelanja1 + "%");
+        System.out.println("Hasil Presentase Makanan Warteg 1:" + presentaseMakananWarteg1 + "%");
+        System.out.println("Hasil Presentase Transport Bus 1:" + presentaseTransportBus1 + "%");
+        System.out.println("Hasil Presentase Belanja Bulanan 1:" + presentaseBelanjaBulanan1 + "%");
         System.out.println("><><><><><><><");
 
-        double makanan2; double transport2; double belanja2;
-        System.out.println("Total Harga Makanan2: ");
-        makanan2 = input.nextDouble();
-        System.out.println("Total Harga Transport2: ");
-        transport2 = input.nextDouble();
-        System.out.println("Total Harga Belanja2: ");
-        belanja2 = input.nextDouble();
-        double total2 = makanan2 + transport2 + belanja2     ;
+        double makananWarteg2; double transportBus2; double belanjaBulanan2;
+        System.out.println("Total Harga Makanan Warteg 2: ");
+        makananWarteg2 = input.nextDouble();
+        System.out.println("Total Harga Transport Bus 2: ");
+        transportBus2 = input.nextDouble();
+        System.out.println("Total Harga Belanja Bulanan 2: ");
+        belanjaBulanan2 = input.nextDouble();
+        double total2 = makananWarteg2 + transportBus2 + belanjaBulanan2;
 
-        double presentaseMakanan2; double presentaseTransport2; double presentaseBelanja2;
-        presentaseMakanan2 = makanan2/total2 * 100;
-        presentaseTransport2 = transport2/total2 * 100;
-        presentaseBelanja2 = belanja2/total2 * 100;
+        double presentaseMakananWarteg2; double presentaseTransportBus2; double presentaseBelanjaBulanan2;
+        presentaseMakananWarteg2 = makananWarteg2/total2 * 100;
+        presentaseTransportBus2 = transportBus2/total2 * 100;
+        presentaseBelanjaBulanan2 = belanjaBulanan2/total2 * 100;
 
         System.out.println("><><><><><><><");
-        System.out.println("Hasil Presentase Makanan2:" + presentaseMakanan2 + "%");
-        System.out.println("Hasil Presentase Transport2:" + presentaseTransport2 + "%");
-        System.out.println("Hasil Presentase Belanja2  :" + presentaseBelanja2 + "%");
+        System.out.println("Hasil Presentase Makanan Warteg 2:" + presentaseMakananWarteg2 + "%");
+        System.out.println("Hasil Presentase Transport Bus 2:" + presentaseTransportBus2 + "%");
+        System.out.println("Hasil Presentase Belanja Bulanan 2:" + presentaseBelanjaBulanan2 + "%");
+        System.out.println("><><><><><><><");
+
+        double makananWarteg3; double transportBus3; double belanjaBulanan3;
+        System.out.println("Total Harga Makanan Warteg 3: ");
+        makananWarteg3 = input.nextDouble();
+        System.out.println("Total Harga Transport Bus 3: ");
+        transportBus3 = input.nextDouble();
+        System.out.println("Total Harga Belanja Bulanan 3: ");
+        belanjaBulanan3 = input.nextDouble();
+        double total3 = makananWarteg3 + transportBus3 + belanjaBulanan3;
+
+        double presentaseMakananWarteg3; double presentaseTransportBus3; double presentaseBelanjaBulanan3;
+        presentaseMakananWarteg3 = makananWarteg3/total3 * 100;
+        presentaseTransportBus3 = transportBus3/total3 * 100;
+        presentaseBelanjaBulanan3 = belanjaBulanan3/total3 * 100;
+
+        System.out.println("><><><><><><><");
+        System.out.println("Hasil Presentase Makanan Warteg 3:" + presentaseMakananWarteg3 + "%");
+        System.out.println("Hasil Presentase Transport Bus 3:" + presentaseTransportBus3 + "%");
+        System.out.println("Hasil Presentase Belanja Bulanan 3:" + presentaseBelanjaBulanan3 + "%");
         System.out.println("><><><><><><><");
     }
 }

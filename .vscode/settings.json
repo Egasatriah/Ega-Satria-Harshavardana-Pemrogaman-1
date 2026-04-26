@@ -1,0 +1,3 @@
+"code-runner.executorMap": {
+    "java": "cd $dir && javac -d . $fileName && java $(grep -Po '(?<=package )[\\w\\.]*' $fileName | tr -d ';').${fileBaseName}"
+}
